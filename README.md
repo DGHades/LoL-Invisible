@@ -5,7 +5,7 @@ A Script for appearing Offline in League of Legends while actually being online 
 
 # How to Install:
 
-1. Get the Installer .rar from the "InstallerFiles" Folder. 
+1. Get the Installer .rar from the "InstallerFiles" Folder. [Or you can Download it Here](InstallerFiles/Installer.rar)
 
 2. Unpack the .rar wherever you want.
 
