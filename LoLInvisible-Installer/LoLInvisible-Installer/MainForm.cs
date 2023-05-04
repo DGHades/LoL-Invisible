@@ -24,20 +24,48 @@ namespace LoLInvisible_Installer
 
         private void btn_Install_Click(object sender, EventArgs e)
         {
-            if (!_Validator.ValidatePath(ref ErrorText, textBox_InstallPath.Text))
+            InstallationForm installationForm = new InstallationForm(4, textBox_InstallPath, CB_CreateDesktopShortcut);
+            if (installationForm.ShowDialog() == DialogResult.OK)
             {
-                ErrorMsgForm errorForm = new ErrorMsgForm(ErrorText);
-                if (errorForm.ShowDialog() == DialogResult.OK)
-                {
-                    return;
-                }
+                InstallationSuccessfull();
             }
+            else
+            {
+                InstallationUnSuccessfull();
+            }
+        }
 
-            ScriptCreator scriptCreator = new ScriptCreator(textBox_InstallPath.Text);
-            scriptCreator.CreateBat();
-            scriptCreator.CreatePowershellScript();
+        private void InstallationSuccessfull()
+        {
+            InstSettings_Lbl.Visible = false;
+            CB_CreateDesktopShortcut.Visible = false;
+            textBox_InstallPath.Visible = false;
+            btn_Install.Visible = false;
+            btn_Other.Visible = false;
+            FilePath_Lbl.Visible = false;
 
-            Extras _Extras = new Extras(textBox_InstallPath.Text, CB_CreateDesktopShortcut.Checked);
+            CloseInstaller_Btn.Visible = true;
+            InstSuccess_Lbl.Visible = true;
+        }
+
+        private void InstallationUnSuccessfull()
+        {
+            InstSettings_Lbl.Visible = false;
+            CB_CreateDesktopShortcut.Visible = false;
+            textBox_InstallPath.Visible = false;
+            btn_Install.Visible = false;
+            btn_Other.Visible = false;
+            FilePath_Lbl.Visible = false;
+
+            CloseInstaller_Btn.Visible = true;
+            InstSuccess_Lbl.Visible = true;
+            InstSuccess_Lbl.ForeColor = System.Drawing.Color.Red;
+            InstSuccess_Lbl.Text = "Installation Unsuccesfull.";
+        }
+
+        private void CloseInstaller_Btn_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

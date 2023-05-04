@@ -18,3 +18,4 @@ C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Ins
 C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\obj\Debug\net6.0-windows\LoLInvisible_Installer.MainForm.resources
 C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\obj\Debug\net6.0-windows\Interop.IWshRuntimeLibrary.dll
 C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\obj\Debug\net6.0-windows\LoLInvisible-Installer.csproj.ResolveComReference.cache
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\obj\Debug\net6.0-windows\LoLInvisible_Installer.InstallationForm.resources

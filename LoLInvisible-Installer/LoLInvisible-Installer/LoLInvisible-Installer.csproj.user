@@ -4,6 +4,9 @@
     <Compile Update="ErrorMsgForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="InstallationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
