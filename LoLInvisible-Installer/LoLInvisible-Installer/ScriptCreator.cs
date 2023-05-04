@@ -20,7 +20,7 @@ namespace LoLInvisible_Installer
         {
             using (StreamWriter writer = File.CreateText(_Path + "\\run.bat"))
             {
-                writer.WriteLine("powershell -Command \"Start-Process powershell \\\"-ExecutionPolicy Bypass -NoProfile -NoExit -Command `\\\"`%~dp0LoLOff.ps1\"`\\\"\\\" -Verb RunAs\"");
+                writer.WriteLine("powershell -Command \"Start-Process powershell \\\"-ExecutionPolicy Bypass -NoProfile -Command `\\\"`%~dp0LoLOff.ps1\"`\\\"\\\" -Verb RunAs\"");
             }
         }
 
@@ -32,7 +32,7 @@ namespace LoLInvisible_Installer
                 writer.WriteLine("$firewallRuleName = \"lolchat\"");
                 writer.WriteLine("");
                 writer.WriteLine("write-host \"Checking for '$firewallRuleName' firewall rule on port '$firewallPort' now....\"");
-                writer.WriteLine("if ($(Get-NetFirewallRule -DisplayName $firewallRuleName | Get-NetFirewallPortFilter | Where { $_.Remoteport -eq $firewallPort }))");
+                writer.WriteLine("if ($(Get-NetFirewallRule -ErrorAction silentlycontinue -DisplayName $firewallRuleName | Get-NetFirewallPortFilter | Where { $_.Remoteport -eq $firewallPort }))");
                 writer.WriteLine("{");
                 writer.WriteLine("    write-host \"Firewall rule for '$firewallRuleName' on port '$firewallPort' already exists, deleting rule now...\"");
                 writer.WriteLine("    netsh advfirewall firewall delete rule name=\"lolchat\"");

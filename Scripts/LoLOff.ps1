@@ -2,7 +2,7 @@ $firewallPort = "5223"
 $firewallRuleName = "lolchat"
 
 write-host "Checking for '$firewallRuleName' firewall rule on port '$firewallPort' now...."
-if ($(Get-NetFirewallRule -DisplayName $firewallRuleName | Get-NetFirewallPortFilter | Where { $_.Remoteport -eq $firewallPort }))
+if ($(Get-NetFirewallRule -ErrorAction silentlycontinue -DisplayName $firewallRuleName | Get-NetFirewallPortFilter | Where { $_.Remoteport -eq $firewallPort })) 
 {
     write-host "Firewall rule for '$firewallRuleName' on port '$firewallPort' already exists, deleting rule now..."
     netsh advfirewall firewall delete rule name="lolchat"

@@ -1,1 +1,1 @@
-powershell -Command "Start-Process powershell \"-ExecutionPolicy Bypass -NoProfile -NoExit -Command `\"`%~dp0LoLOff.ps1"`\"\" -Verb RunAs"
+powershell -Command "Start-Process powershell \"-ExecutionPolicy Bypass -NoProfile -Command `\"`%~dp0LoLOff.ps1"`\"\" -Verb RunAs"
