@@ -81,9 +81,9 @@
             CB_CreateDesktopShortcut.AutoSize = true;
             CB_CreateDesktopShortcut.Location = new Point(12, 37);
             CB_CreateDesktopShortcut.Name = "CB_CreateDesktopShortcut";
-            CB_CreateDesktopShortcut.Size = new Size(232, 29);
+            CB_CreateDesktopShortcut.Size = new Size(367, 29);
             CB_CreateDesktopShortcut.TabIndex = 4;
-            CB_CreateDesktopShortcut.Text = "Create Desktop Shortcut";
+            CB_CreateDesktopShortcut.Text = "Create Desktop Shortcut (Recommended)";
             CB_CreateDesktopShortcut.UseVisualStyleBackColor = true;
             // 
             // InstSettings_Lbl
@@ -132,7 +132,7 @@
             Controls.Add(textBox_InstallPath);
             Controls.Add(btn_Other);
             Name = "MainForm";
-            Text = "Form1";
+            Text = "Install LoL-Invisible";
             ResumeLayout(false);
             PerformLayout();
         }

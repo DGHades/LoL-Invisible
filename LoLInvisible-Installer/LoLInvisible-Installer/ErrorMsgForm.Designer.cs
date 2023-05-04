@@ -71,7 +71,7 @@
             Controls.Add(Error_Lbl);
             Controls.Add(richTextBox_ErrorMsg);
             Name = "ErrorMsgForm";
-            Text = "ErrorMsgForm";
+            Text = "Error";
             FormClosed += ErrorMsgForm_FormClosed;
             ResumeLayout(false);
             PerformLayout();

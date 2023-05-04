@@ -66,7 +66,7 @@
             Controls.Add(InstallStepCaption_Lbl);
             Controls.Add(progressBar_InstallStep);
             Name = "InstallationForm";
-            Text = "InstallationForm";
+            Text = "Installation In Progress...";
             FormClosed += InstallationForm_FormClosed;
             Load += InstallationForm_Load;
             Shown += InstallationForm_Shown;

@@ -12,6 +12,7 @@ namespace LoLInvisible_Installer
             _Validator = new Validator();
             BrowserDialog.InitialDirectory = "C:\\Program Files";
             textBox_InstallPath.Text = "C:\\Program Files";
+            CB_CreateDesktopShortcut.Checked = true;
         }
 
         private void btn_Other_Click(object sender, EventArgs e)
