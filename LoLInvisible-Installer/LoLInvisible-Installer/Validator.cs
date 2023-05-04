@@ -12,7 +12,7 @@ namespace LoLInvisible_Installer
         private List<string> _Errors = new List<string>();
         private string _Path;
 
-        public bool ValidateData(ref string pErrorText, string pPath)
+        public bool ValidatePath(ref string pErrorText, string pPath)
         {
             _Path = pPath;
 

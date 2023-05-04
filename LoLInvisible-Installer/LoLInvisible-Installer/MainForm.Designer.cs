@@ -33,6 +33,7 @@
             BrowserDialog = new FolderBrowserDialog();
             FilePath_Lbl = new Label();
             btn_Install = new Button();
+            CB_CreateDesktopShortcut = new CheckBox();
             SuspendLayout();
             // 
             // btn_Other
@@ -72,16 +73,27 @@
             btn_Install.UseVisualStyleBackColor = true;
             btn_Install.Click += btn_Install_Click;
             // 
-            // Form1
+            // CB_CreateDesktopShortcut
+            // 
+            CB_CreateDesktopShortcut.AutoSize = true;
+            CB_CreateDesktopShortcut.Location = new Point(12, 311);
+            CB_CreateDesktopShortcut.Name = "CB_CreateDesktopShortcut";
+            CB_CreateDesktopShortcut.Size = new Size(232, 29);
+            CB_CreateDesktopShortcut.TabIndex = 4;
+            CB_CreateDesktopShortcut.Text = "Create Desktop Shortcut";
+            CB_CreateDesktopShortcut.UseVisualStyleBackColor = true;
+            // 
+            // MainForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(CB_CreateDesktopShortcut);
             Controls.Add(btn_Install);
             Controls.Add(FilePath_Lbl);
             Controls.Add(textBox_InstallPath);
             Controls.Add(btn_Other);
-            Name = "Form1";
+            Name = "MainForm";
             Text = "Form1";
             ResumeLayout(false);
             PerformLayout();
@@ -93,5 +105,6 @@
         private FolderBrowserDialog BrowserDialog;
         private Label FilePath_Lbl;
         private Button btn_Install;
+        private CheckBox CB_CreateDesktopShortcut;
     }
 }

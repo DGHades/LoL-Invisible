@@ -24,7 +24,7 @@ namespace LoLInvisible_Installer
 
         private void btn_Install_Click(object sender, EventArgs e)
         {
-            if (!_Validator.ValidateData(ref ErrorText, textBox_InstallPath.Text))
+            if (!_Validator.ValidatePath(ref ErrorText, textBox_InstallPath.Text))
             {
                 ErrorMsgForm errorForm = new ErrorMsgForm(ErrorText);
                 if (errorForm.ShowDialog() == DialogResult.OK)
@@ -36,6 +36,8 @@ namespace LoLInvisible_Installer
             ScriptCreator scriptCreator = new ScriptCreator(textBox_InstallPath.Text);
             scriptCreator.CreateBat();
             scriptCreator.CreatePowershellScript();
+
+            Extras _Extras = new Extras(textBox_InstallPath.Text, CB_CreateDesktopShortcut.Checked);
         }
     }
 }
