@@ -19,7 +19,9 @@ namespace LoLInvisible_Installer
 
         private void btn_Install_Click(object sender, EventArgs e)
         {
-
+            ScriptCreator scriptCreator = new ScriptCreator(textBox_InstallPath.Text);
+            scriptCreator.CreateBat();
+            scriptCreator.CreatePowershellScript();
         }
     }
 }
