@@ -5,13 +5,15 @@ A Script for appearing Offline in League of Legends while actually being online 
 
 # How to Install:
 
-1. Get the Installer Files from the "InstallerFiles" Folder. Note: You can take the .rar or the Actual Folder, both are the same.
+1. Get the Installer .rar from the "InstallerFiles" Folder. 
 
-2. Execute "LoLInvisible-Installer.exe"
+2. Unpack the .rar wherever you want.
 
-3. Set the Options how you like it and press install.
+3. Execute "LoLInvisible-Installer.exe"
 
-4. Here you go now you should have the needed Scripts in your installation path, and if you checked the box for it, also a Desktop Shortcut.
+4. Set the Options how you like it and press install.
+
+5. Here you go now you should have the needed Scripts in your installation path, and if you checked the box for it, also a Desktop Shortcut.
 
 
 # How to use:
@@ -30,6 +32,15 @@ When you "Appear as Offline", you will be not shown as Online to friends, but yo
 Mind this if you are willing to play blind pick, it can be problematic. 
 
 # Troubleshooting:
+
+## Script won't get me back online
 If the script for some reason won't disable the rule again, open cmd (write cmd in windows search bar) and execute the command "wf.msc".
 From here navigate to "Outgoing Rules" (on the left) and find the Rule "LoLChat", then go ahead and delete that rule.
 
+## Script doesn't work / doesn't open
+
+### Allow usage of Scripts
+1. Start Windows PowerShell with the "Run as Administrator" option. Only members of the Administrators group on the computer can change the execution policy.
+
+2. Enable running unsigned scripts by entering:
+    set-executionpolicy remotesigned
