@@ -1,0 +1,17 @@
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\bin\Debug\net6.0-windows\LoLInvisible-Installer.exe
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\bin\Debug\net6.0-windows\LoLInvisible-Installer.deps.json
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\bin\Debug\net6.0-windows\LoLInvisible-Installer.runtimeconfig.json
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\bin\Debug\net6.0-windows\LoLInvisible-Installer.dll
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\bin\Debug\net6.0-windows\LoLInvisible-Installer.pdb
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\obj\Debug\net6.0-windows\LoLInvisible-Installer.csproj.AssemblyReference.cache
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\obj\Debug\net6.0-windows\LoLInvisible_Installer.Form1.resources
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\obj\Debug\net6.0-windows\LoLInvisible-Installer.csproj.GenerateResource.cache
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\obj\Debug\net6.0-windows\LoLInvisible-Installer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\obj\Debug\net6.0-windows\LoLInvisible-Installer.AssemblyInfoInputs.cache
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\obj\Debug\net6.0-windows\LoLInvisible-Installer.AssemblyInfo.cs
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\obj\Debug\net6.0-windows\LoLInvisible-Installer.csproj.CoreCompileInputs.cache
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\obj\Debug\net6.0-windows\LoLInvisible-Installer.dll
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\obj\Debug\net6.0-windows\refint\LoLInvisible-Installer.dll
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\obj\Debug\net6.0-windows\LoLInvisible-Installer.pdb
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\obj\Debug\net6.0-windows\LoLInvisible-Installer.genruntimeconfig.cache
+C:\Users\Lauri\Desktop\Git\LoL-Invisible\LoLInvisible-Installer\LoLInvisible-Installer\obj\Debug\net6.0-windows\ref\LoLInvisible-Installer.dll
