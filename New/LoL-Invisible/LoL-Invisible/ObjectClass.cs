@@ -61,4 +61,11 @@ namespace ObjectClass
         public int? summonerId { get; set; }
         public int? time { get; set; }
     }
+
+    public enum EStatus
+    {
+        OFFLINE = 10,
+        AWAY = 20,
+        CHAT = 30
+    }
 }
